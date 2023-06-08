@@ -1,4 +1,4 @@
-package untitled.template.common
+package untitled.template.common.controller
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.validation.BindException
