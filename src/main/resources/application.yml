@@ -1,5 +1,5 @@
 server:
-  port: 34090
+  port: 8080
   shutdown: graceful
   error:
     include-binding-errors: always
@@ -24,11 +24,11 @@ spring:
     password: testpass
     hikari:
       pool-name: ${spring.application.name}-pool
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          jwk-set-uri: http://localhost:34090/.well-known/jwks.json
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          jwk-set-uri: http://localhost:34090/.well-known/jwks.json
   mvc:
     hiddenmethod:
       filter:

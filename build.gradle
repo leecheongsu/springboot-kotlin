@@ -100,7 +100,7 @@ kotlinter {
 
 apply plugin: 'nu.studer.jooq'
 jooq {
-    version = '3.15.4'  // default (can be omitted)
+    version = '3.18.4'  // default (can be omitted)
     edition = nu.studer.gradle.jooq.JooqEdition.OSS  // default (can be omitted)
 
     configurations {
@@ -195,11 +195,11 @@ dependencies {
     implementation group: 'com.google.guava', name: 'guava', version: '31.0.1-jre'
 
     // oauth server
-    implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.3.4.RELEASE'
-    implementation 'com.nimbusds:nimbus-jose-jwt:9.15.2'
+//    implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.3.4.RELEASE'
+//    implementation 'com.nimbusds:nimbus-jose-jwt:9.15.2'
 
     // oauth client
-    implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
+//    implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
 
     // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
     implementation 'org.apache.poi:poi-ooxml:4.1.2'
